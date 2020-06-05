@@ -2,8 +2,6 @@ import * as React from 'react'
 import {ITask} from './Task';
 
 class TaskList extends React.Component<iTaskListProps,any>{
-    
-
     render() : JSX.Element[]{
         return this.props.tasks.map((task:ITask,i:number) =>{
             return (
